@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 210px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.column {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 200%;
+  height: auto;
+}
+
+
+.text {
+  padding: 20px;
+}
+
+
+
+.bold-headingg {
+  font-weight: bold;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: inherit;
+  color: #1090CB; /* Inherits the font-size from the parent element */
+}
